@@ -1,6 +1,12 @@
 body {
   font-family: Verdana, sans-serif;
   background-color: black;
+}
+
+h1,
+h2,
+a,
+p {
   text-align: center;
 }
 
@@ -16,7 +22,7 @@ h2 {
     font-weight: 300;
 }
 
-span, a {
+a {
   text-decoration-line: underline;
   color: Aquamarine;
   font-size: 16px;
@@ -25,4 +31,9 @@ span, a {
 p {
   color: gray;
   font-size: 21px;
+}
+
+footer {
+  text-align: right;
+  color: gray;
 }
